@@ -28,3 +28,12 @@ void gogeta(std::vector<int> &goku, std::vector<int> &vegeta){
     }
     vegeta.clear();
 }
+
+std::vector<int> sumPairWise(const std::vector<int> &v1, const std::vector<int> &v2){
+    std::vector<int> result;
+    int size = v1.size() > v2.size() ? v1.size() : v2.size();
+    for(int i = 0;i < size;i++){
+        result.push_back((i >= v1.size() ? 0 : v1[i]) + (i >= v2.size() ? 0 : v2[i]));
+    }
+    return result;
+}

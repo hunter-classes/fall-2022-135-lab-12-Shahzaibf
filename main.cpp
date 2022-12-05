@@ -28,5 +28,14 @@ int main(){
         std::cout << v2[i] << " ";
     }
     std::cout << "\n";
+
+    std::vector<int> v3{1,2,3};
+    std::vector<int> v4{4,5};
+
+    std::vector<int> v5 = sumPairWise(v3, v4); // returns [5, 7, 3]
+    for(int i = 0; i < v5.size();i++){
+        std::cout << v5[i] << " ";
+    }
+    std::cout << std::endl;
     return 0;
 }

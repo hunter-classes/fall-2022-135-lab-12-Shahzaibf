@@ -35,3 +35,14 @@ TEST_CASE("Task C"){
     CHECK(v1[5] == 21);
     CHECK(v2.size() == 0);
 }
+
+TEST_CASE("Task D"){
+    std::vector<int> v3 = {7,11,9,1,2};
+    std::vector<int> v4 = {2,4,5};
+    std::vector<int> v5 = sumPairWise(v3,v4);
+    CHECK(v5[0] == 9);
+    CHECK(v5[1] == 15);
+    CHECK(v5[2] == 14);
+    CHECK(v5[3] == 1);
+    CHECK(v5[4] == 2);
+}
