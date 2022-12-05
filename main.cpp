@@ -9,5 +9,24 @@ int main(){
         std::cout << nums[i] << " ";
     }
     std::cout << "\n";
+
+    std::vector<int> numpos = {-1,-2,1,0,-1};
+    numpos = goodVibes(numpos);
+    for(int i = 0; i < numpos.size();i++){
+        std::cout << numpos[i] << " ";
+    }
+    std::cout << "\n";
+
+    std::vector<int> v1{1,2,3};
+    std::vector<int> v2{4,5};
+
+    gogeta(v1, v2); // v1 is now [1,2,3,4,5] and v2 is empty.
+    for(int i = 0; i < v1.size();i++){
+        std::cout << v1[i] << " ";
+    }
+    for(int i = 0; i < v2.size();i++){
+        std::cout << v2[i] << " ";
+    }
+    std::cout << "\n";
     return 0;
 }
