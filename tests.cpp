@@ -1,6 +1,7 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest.h"
 #include "funcs.h"
+//tests for each task are below and marked accordingly
 
 TEST_CASE("Task A"){
     std::vector<int> nums;

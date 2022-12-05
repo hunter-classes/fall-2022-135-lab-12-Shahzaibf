@@ -1,3 +1,11 @@
+/*
+Author: Shahzaib Fareed
+Course: CSCI-135
+Instructor: Zamansky
+Assignment: Lab 12
+    In lab 12 we had to effectively make use of vectors.
+    I had to create and test functions accordingly.
+*/
 #include "funcs.h"
 #include <iostream>
 #include <vector>
